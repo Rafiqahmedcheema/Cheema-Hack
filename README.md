@@ -29,7 +29,7 @@ chmod +x main.py
 + **Turn on Location.**
 - Show avaliable networks and start Pixie Dust attack on a specified network.
 - ```sudo python main.py -i wlan0 -K```
-- ```bash cheema.sh```
+- ```bash wipwn.sh```
 - - Start Pixie Dust attack on a specified BSSID:
 `sudo python main.py -i wlan0 -b 00:91:4C:C3:AC:28 -K`
 - Launch online WPS bruteforce with the specified first half of the PIN:
